@@ -1,0 +1,80 @@
+.bl0c{
+ display: flex; right: 
+
+}
+
+
+
+
+
+.parentbloc{
+    
+    border: red solid 20px;
+    height: 350px;
+    width: 350px;
+    display: flex;  
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+   
+    
+}
+
+
+
+
+.bloc1{
+    background-color: pink;
+    height: 50%;
+    width: 50%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 0%;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+    
+}
+.bloc2{
+    background-color:blue;
+    height: 50%;
+    width: 50%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 25%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.bloc3{
+    background-color: yellow;
+    height: 50%;
+    width: 50%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 0%;
+
+    margin-left: auto;
+   margin-right: auto;
+    
+}
+.bloc4{
+    background-color: black;
+    height: 50%;
+    width: 50%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 25%;
+
+   margin-right: auto;
+   margin-left: auto
+    
+}

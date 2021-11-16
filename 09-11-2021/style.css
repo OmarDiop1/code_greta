@@ -1,0 +1,23 @@
+ul{
+   
+    flex-wrap: wrap;
+    list-style: none;
+    
+   
+    
+}
+li{
+    display: inline;
+}
+/* li:nth-last-child(n+3)::after{ */
+li::after{
+    content: ",";
+}
+
+li:nth-last-child(1)::after{
+    content: ".";
+}
+
+li:nth-last-child(2)::after{
+    content: " et";
+}

@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkturquoise;
+}
+
+
+/* header */
+
+header {
+    background-image: url('http://picsum.photos/1000/200');
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    border-bottom: 20px solid black;
+}
+
+header>img {
+    height: 180px;
+    width: 180px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+header>h1 {
+    text-shadow: 0 0 10px black;
+    color: white;
+}
+
+main {
+    margin: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 20px;
+}
+
+article {
+    padding: 5px;
+}
+
+
+/* flex */
+
+.flex {
+    display: flex
+}
+
+.flex-d-rr {
+    flex-direction: row-reverse;
+}
+
+.flex-d-r {
+    flex-direction: row;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    margin: -20px -20px 0 -20px;
+    padding: 5px;
+}
+
+button {
+    background-color: purple;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+footer {
+    background-image: url('http://picsum.photos/1000/201');
+    height: 200px;
+    border-top: 20px solid black;
+    font-size: 20px;
+}
+
+.shadow {
+    box-shadow: 0 0 10px black;
+}
+
+
+/* menu */
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: purple;
+}
+
+.burger {
+    display: none;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.burger>div {
+    background-color: white;
+    height: 2px;
+    margin: 8px;
+}
+
+.burger:hover {
+    background-color: purple;
+}
+
+.burger:hover .menuBurger {
+    display: block;
+}
+
+.menuBurger {
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 0;
+}
+
+.menuBurger ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.menuBurger li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menuBurger li a:hover {
+    background-color: purple;
+}
+
+
+/* progres bar */
+
+.progressBar {
+    background-color: grey;
+    height: 30px;
+}
+
+.progressBar>div {
+    background-color: blueviolet;
+    height: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+@media (max-width:800px) {
+    header {
+        flex-direction: column;
+    }
+    header>img {
+        width: 100px;
+        height: 100px;
+    }
+    .menu {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .flex-d-r {
+        flex-direction: column;
+    }
+    .w50 {
+        width: 100%;
+    }
+}

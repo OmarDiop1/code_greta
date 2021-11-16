@@ -1,0 +1,29 @@
+.premierflex1{
+    display: flex;
+    border: red solid 4px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.premierflex1>div,
+.premierflex1>img {
+    width: 200px;
+    border: yellow solid 4px;
+}
+
+.premierflex2{
+    display: flex;
+    border: red solid 4px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.premierflex2>div,
+.premierflex2>img {
+    width: 200px;
+    border: yellow solid 4px;
+}
+.rowReverse{ 
+    flex-direction: row-reverse;
+
+}

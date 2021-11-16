@@ -1,0 +1,119 @@
+.cv{
+
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+   
+
+}
+.headerphoto{
+display: flex;
+justify-content: center;
+
+}
+
+.Photo{
+    height: 300px;
+    width: 300px;
+    border: solid red;
+    border-radius: 20px;
+    
+    background-color: black;
+}
+
+
+
+
+
+.Gauche{
+    width:40%;
+    display: flex;
+    flex-direction:  column;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    margin:0;
+    border-right: 4px solid black ;
+    max-width: 400px;
+    
+}
+
+
+.Droite{
+
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+    width:59%;
+    margin:0;
+    border-right: solid 2px black;
+  display: flex;
+  flex-direction:  column;
+  max-width: 800px;
+  
+  
+}
+.Parent{
+    background-color:#ff6f91;
+    width: 50%;
+    height: 30px;
+    margin : 2px;
+    
+}
+.Enfant{
+    height: 30px;
+    background-color: #845ec2;
+    
+}
+
+.progressbar{
+   margin-left: 20%;
+ 
+}
+
+.titre{
+    text-shadow:#ff006e 2.5px 2.5px 0,
+    #8338ec 5px 5px 0,
+    #3a86ff 7.5px 7.5px 0,
+    #333 10px 10px 10px;color:#ffcc00;
+}
+
+
+
+    
+    .Prénom{
+      display: flex;
+      justify-content: center;
+      text-shadow:#ff006e 2.5px 2.5px 0,
+      #8338ec 5px 5px 0,
+      #3a86ff 7.5px 7.5px 0,
+      #333 10px 10px 10px;color:#ffcc00;
+         
+    }
+   
+  .texte{
+  color: blueviolet;
+    
+  }
+  
+  .Tableau{
+      display: flex;
+      align-items:stretch;
+  }
+  
+  @media  (max-width: 379px) {
+      .cv{
+         
+          flex-direction: column;
+          
+      }
+      .Gauche{
+          width: 100%;
+      }
+      .Droite{
+          width: 100%;
+      }
+ 
+      
+  }

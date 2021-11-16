@@ -1,0 +1,35 @@
+body{
+    background: rgb(34,41,195);
+    background: linear-gradient(0deg, rgba(34,41,195,1) 0%, rgba(253,45,45,1) 100%); 
+}
+
+
+
+h1{
+    background-color: orangered;
+    color: blue;
+    border-radius: 100px;
+    padding: 15% 350px;
+    border:solid blue 5px;
+}
+
+
+.Kanji{
+    background-color: purple;
+    color: red;
+    margin-top: 0% 150px;
+    padding:  0px  350px;
+    border: solid red 5px;
+    
+}
+.Kanji2{
+    margin: 2% 0%;
+    border-width: 150px;
+    background-color: black;
+    color: whitesmoke;
+    padding:50px 50px 50px 50px;
+    border: solid whitesmoke 5px;
+    border-radius: 100px;
+    
+    
+}

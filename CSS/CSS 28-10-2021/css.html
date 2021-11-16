@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link href="style.css" rel="stylesheet">
+
+    <style>
+        /*commentaire css: selecteur = body, propriété = background-color, valeur = red */
+        body {
+            background: rgb(34, 193, 195);
+            background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+        }
+
+        p {
+            color: red;
+        }
+
+        #ici {
+            background-color: green;
+        }
+
+        .laClass {
+            background-color: yellow;
+            color: green;
+        }
+
+        .arrondi {
+            border-radius: 50px;
+        }
+
+        .bordure {
+            border: solid violet;
+            height: 200px;
+            width: 80%;
+            margin: 10px auto;
+            float: right;
+        }
+
+        .monimg {
+            height: 150px;
+            width: 300px;
+            border: solid black 10px;
+            border-radius: 50%;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Titre
+    </h1>
+    <p>
+        Bonjour
+    </p>
+    <div id="ici" class="arrondi">
+        Style sur ID</div>
+    <div class="laClass arrondi">
+        Style sur Class
+
+    </div>
+
+    <div style="background-color:red;" class="arrondi">
+        Style qui s'applique que dans cette balise + la class
+    </div>
+    <div class="bordure">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. In neque nemo tempore iusto rerum, saepe blanditiis
+        placeat cumque animi sequi?
+
+    </div>
+    <img src="Dragon-Ball-Logo-650x366.png" class="monimg">
+
+
+
+</body>
+
+</html>
