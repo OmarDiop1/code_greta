@@ -1,93 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
-    <title>Document</title>
-</head>
-<body>
- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
 
-      <div class="container">
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+  <title>Dragon Ball FighterZ </title>
+  <script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+    integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body class="bg-secondary">
+  <nav class="navbar navbar-dark bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <i class="fas fa-tv"></i> Fighterz Teams</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+
+        <div class="container">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+  </nav>
+
+  </div>
+
+  <div class="card bg-secondary border-top-0 border-5 border-dark">
+    <div class="card-body mx-auto ">
+      <h5 class=" card-title text-center">Card title</h5>
+      <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+      <p class="card-text "><small class=" text-muted">Last updated 3 mins ago</small></p>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/fr/4/47/Dragon_Ball_FighterZ_Logo.png"
+      class="card-img-bottom w-25 mx-auto " alt="...">
+  </div>
+  <br><br>
+
+  <section class="w-75 rounded  mx-auto border border-dark border-5">
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="https://image.api.playstation.com/cdn/EP0700/CUSA08992_00/KUttSY4ExLqcuRB1EVq2UKETd0dscHIg.png"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Goku GT</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://image.api.playstation.com/vulcan/img/cfn/11307PvPPM0-wlQtRiOT_AhDJ5sfT1-QXbG-SgpF1wZvjE88r5ewvHslIOJ5W5tNKzy4b8idrYiNIrVpHsV_l7y9Rd8Y6UyT.png"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>MIGATTE NO GOKUI</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://image.api.playstation.com/cdn/EP0700/CUSA08992_00/agaG6ubBTop8HESkXwIoHpTiz9C4O2up.png"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>GOKU Z</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <br><br><br>
+
+  <article class="d-flex justify-content-around">
+    <div class="card text-dark bg-danger mb-3" style="width: 18rem;">
+      <img src="https://dragonballsuper-france.fr/wp-content/uploads/2018/01/7.jpg"
+        class=" border border-5 border-danger card-img-top" alt="...">
+      <div class="card-body text-white">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+      <ul class="list-group border border-5 border-dark ">
+        <li style="text-align: center; color: whitesmoke;" class="list-group-item bg-dark"> <i class="fab fa-playstation"></i>  </li>
+        <li style="text-align: center; color: whitesmoke;" class="list-group-item bg-dark">SPECIAL MOVES</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+      </ul>
+      <div class="card-body text-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary " data-bs-toggle="tooltip" data-bs-placement="top" title= "XBOX CONTROLLER" >
+            <a href="#" class="card-link text-white"> <i class="fab fa-xbox"></i>Touche Pour XBOX</a></button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title= "PC CONTROLLER">
+            <a href="#" class="card-link text-white"> <i class="fab fa-steam"></i>Touche Pour PC</a></button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card text-dark bg-warning mb-3" style="width: 18rem;">
+      <img
+        src="https://images.toucharger.com/img/graphiques/fonds-d-ecran/jeux-videos/coups-speciaux-de-goku-dragonball-fighterz.76269.jpg"
+        class=" border border-5 border-warning card-img-top" alt="...">
+      <div class="card-body text-white">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+      <ul class="list-group border border-5 border-dark">
+        <li style="text-align: center; color: whitesmoke;" class="list-group-item bg-dark"> <i class="fab fa-playstation"></i>  </li>
+        <li style="text-align: center; color: whitesmoke;" class="list-group-item bg-dark"> SPECIAL MOVES</li>
+       
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+      </ul>
+      <div class="card-body text-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-danger " data-bs-toggle="tooltip" data-bs-placement="top" title= "XBOX CONTROLLER">
+            <a href="#" class="card-link text-white " > <i class="fab fa-xbox"></i>Touche Pour XBOX</a></button>
+          <button type="button" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title= "PC CONTROLLER">
+            <a href="#" class="card-link text-white"> <i class="fab fa-steam"></i>Touche Pour PC</a></button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card text-white bg-primary mb-3" style="width: 18rem;">
+      <img
+        src="https://images.toucharger.com/img/graphiques/fonds-d-ecran/jeux-videos/dragonball-fighterz-liste-des-coups-speciaux-de-vegeta.76267.jpg"
+        class=" border border-5 border-primary card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title ">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+      <ul class="list-group border border-5 border-dark  ">
+        <li style="text-align: center; color: whitesmoke;" class="list-group-item bg-dark"> <i class="  fab fa-playstation"></i>  </li>
+        <li style=" text-align: center; color: whitesmoke;" class="  list-group-item bg-dark">SPECIAL MOVES</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+        <li class="bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, eaque?
+        </li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+        <li class=" bg-secondary list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+          eaque?</li>
+      </ul>
+      <div class="card-body text-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title= "XBOX CONTROLLER">
+            <a href="#" class="card-link text-white " > <i class="fab fa-xbox"></i>Touche Pour XBOX</a></button>
+          <button type="button" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title= "PC CONTROLLER">
+            <a href="#" class="card-link text-white"> <i class="fab fa-steam"></i>Touche Pour PC</a></button>
+        </div>
+      </div>
+    </div>
+
+  </article>
+  <article class="mx-auto w-75">
+    <div class="card bg-dark border border-white border-4">
+      <img src="https://c.tenor.com/qNc1trWW0JgAAAAd/dragon-ball-fighterz-goku.gif" class="card-img" alt="...">
+      <div class="card-img-overlay text-center text-danger ">
+
+        <h5 class="card-title ">Goku Gohan Vegeta</h5>
+        <p class="card-text ">Last updated 3 mins ago</p>
+
+      </div>
+    </div>
+  </article>
+
+
+
+
+
+
+  <br><br>
+  <section class="w-75 p-3 mx-auto">
+
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100" style="width: 85%">FORCE</div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">VITESSE</div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100" style="width: 95%">AGILITE</div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar"
+        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%">KI</div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar"
+        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">INTELLIGENCE</div>
+    </div>
+  </section>
+  <br><br>
+
+
+
+
+
+
+  <br><br>
+  <section class="border border-5 border-dark w-50 mb-3 mx-auto  shadow-lg p-3 mb-5 bg-secondary rounded ">
+    <div class="w-25 p-3 mx-auto" style="width: 200px;">
+      <form>
+        <div class=" mb-3 ">
+          <label for=" exampleInputEmail1" class="form-label">LOGIN</label>
+          <input type="email" class="  placeholder col-12 form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">MDP</label>
+
+          <input type="password" class="  placeholder col-12 form-control" id="exampleInputPassword1">
+
+
+        </div>
+        <button type="submit" class=" bg-dark  btn btn-outline-danger">Submit</button>
       </form>
     </div>
-  </div>
-</nav>
-
-</div>
-<br><br><br><br><br>
-
-<div class= "w-25 p-3 mx-auto" style="width: 200px;"">
-
-<form >
-    <div class="mb-3 ">
-      <label for="exampleInputEmail1" class="form-label">LOGIN</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      
     </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">MDP</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-   
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-</div>
-  <br><br><br><br><br><br>
+  </section>
 
 
 
 
-      
 
-
-      <style>
-        .alert-danger{
-            background-color: rgb(37, 245, 0) ;
-        }
-    </style>
-
-
-    <button class="btn btn-primary">HELLO</button>
-    <button class="btn btn-danger">HELLO</button>
 
 
 
 
 
 </body>
+
 </html>
+<script>
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
