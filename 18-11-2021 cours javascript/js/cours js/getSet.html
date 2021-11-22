@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="get">Bonjour</div>
+    <div id="set"></div>
+    
+
+
+
+
+    
+
+    
+    <script>
+        //get
+        var getDiv = document.querySelector("#get").innerHTML;
+
+        alert(getDiv);
+
+        //set
+        document.querySelector("#set").innerHTML = "<button>hello</button>";
+        //ex 2 
+        document.querySelector("#set").innerHTML = getDiv;
+        //ex 3
+        document.querySelector("#set").innerHTML = document.querySelector("#get").innerHTML;
+        
+
+        document.querySelector(".go").innerHTML = "Valider";
+    </script>
+</body>
+</html>
