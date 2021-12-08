@@ -1,0 +1,12 @@
+.fenetre{
+    display: none;
+    background-color: aquamarine;
+    position: absolute;
+    border: solid blueviolet 3px;
+    height: 50%;
+    width: 50%;
+
+
+}
+
+
