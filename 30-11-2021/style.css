@@ -1,0 +1,13 @@
+.cards  article{
+    border:solid 2px;
+    width: 200px;
+    height: 250px ;
+    
+
+    
+   
+  }
+  
+  .cards{
+    display: flex ; 
+  }

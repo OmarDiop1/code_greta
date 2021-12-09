@@ -87,34 +87,20 @@ if (isconnected(input[user , password])) {
 
 
 const studentsDWWM = [
-    ["https://profile" , "léponge", "bob", "5" ],
-    ["https://profile" ,"létoiledemer", "patrick", "25"],
-    ["Z", "DragonBall", "105", "https://profile"],
-    ["SON", "Gohan", "12", "https://profile"],
+    ["https://casoar.org/wp-content/uploads/2020/10/Bob-leponge.png", "léponge", "bob", "5"],
+    ["https://static.wikia.nocookie.net/mugenpedia/images/f/f8/200px-Patrick_Star.svg.png/revision/latest/scale-to-width-down/200?cb=20130812201248&path-prefix=fr", "létoiledemer", "patrick", "25"],
+    ["https://www.micromania.fr/on/demandware.static/-/Sites-masterCatalog_Micromania/default/dw304945bf/images/logos/DragonBallZ-Logo.png", "Z", "DragonBall", "105", ],
+    ["zf", "SON", "Gohan", "12", ],
 
 
 ]
 
 function genCards(students) {
     let cards = "";
-    cards += '<table border ="1">' ;
-    
     for (let i = 0; i < students.length; i++) {
-        
-        
-        
-        cards += '<tr>'; 
-        cards += '<td>' + students[i][0] + '</td>';
-        cards += '<td>' + students[i][1] +  '</td>';
-        cards += '<td>' + students[i][2] +  '</td>';
-        cards += '<td>' + students[i][3] +  '</td>';
-        cards += '</tr>';
-        
-        
 
-
+        cards += genPrincipalCards(students[i]);
     }
-    cards += '</table>';
     document.querySelector(".cards").innerHTML += cards;
 }
 
@@ -124,6 +110,20 @@ genCards(studentsDWWM);
 
 
 
+
+function genPrincipalCards(firstcard) {
+    let principalCards = "";
+    principalCards += '<article>';
+
+    principalCards += '<header><img style="width: 150px;" src="' + firstcard[0]+ '">' + '</header>';
+    principalCards += '<main>' + firstcard[1] + firstcard[2] + '</main>';
+    principalCards += '<footer>' + firstcard[3] + '</footer>';
+
+    principalCards += '</article>';
+
+
+    return principalCards;
+}
 
 
 
