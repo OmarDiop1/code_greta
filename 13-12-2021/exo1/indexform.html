@@ -1,0 +1,42 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./formexo.js"></script>
+    <style>
+        .erreurMessage,
+        .okMessage {
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .erreurMessage {
+            background-color: red;
+        }
+
+        .okMessage {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="message"></div>
+
+    <form name="authentification" onsubmit="return login();">
+        email: <input type="mail" name="email" id=""> login: <input type="text" name="identifiant"> mot de passe: <input type="password" name="mdp">
+        confirmer mot de passe: <input type="password" name="confirmmdp"> tel: <input type="number" name="telephone"
+            id="">
+            cp <input type="number" name="cp" id="">
+
+        <button>LOGIN</button>
+    </form>
+
+
+</body>
+
+</html>
