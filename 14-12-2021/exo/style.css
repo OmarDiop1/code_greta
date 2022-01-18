@@ -1,0 +1,10 @@
+table {
+    border: medium solid red;
+    width: 50%;
+    }
+    td  {
+    border: thin solid blue;
+    width: 50%;
+    }
+    
+  

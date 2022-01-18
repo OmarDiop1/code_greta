@@ -1,0 +1,62 @@
+.menu{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+     
+    border: black solid 5px;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produits  {
+    display: flex ;
+    flex-wrap: wrap;
+   
+    width: 80%;
+   
+    
+}
+
+.produits img {
+    height:350px;
+    width: 450px;
+
+
+}
+
+
+.panier{
+    width: 20%;
+    
+    border: solid black 2px;
+    background-color: grey;
+}
+
+.panier div {
+    display: flex;
+    align-content: flex-end;
+    color: darkorange;
+   
+}
+
+.panier img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+.fenetre{
+    display: none;
+    position: absolute;
+    background-color: red;
+    border: black solid 3px;
+    width: 25%;
+    height: 50%;
+    box-shadow: 0 0 10px black
+}
